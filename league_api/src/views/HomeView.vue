@@ -7,19 +7,22 @@
     
     <Header/>
     <Body/>
+    <Insight/>
   </div>
 </template>
 
 <script>
-import Header from '@/layout/header.vue'
-import Body from '@/layout/body.vue'
+import Header  from '@/layout/header.vue'
+import Body    from '@/layout/body.vue'
+import Insight from '@/layout/insights.vue'
 
 export default {
   name: 'Home',
 
   components: {
     Header,
-    Body
+    Body,
+    Insight
   }
 }
 </script>
