@@ -1,9 +1,4 @@
 <template>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
     <header>
         <img 
             src="../assets/logo.png"
@@ -56,7 +51,7 @@ export default {
         color: #dee2e6;
     }
 
-    li:hover {
+    li:hover, .material-icons:hover {
         color: #fca311;
         transition-delay: 0.1s;
         cursor: pointer;

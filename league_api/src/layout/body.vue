@@ -1,16 +1,17 @@
 <template>
     <div class="page-wrap">
     
-        <div class="left-panel">
+        <div class="lado_esquerdo">
             <div class="illustration">
             </div>
         </div>
 
-        <div class="right-panel">
+        <div class="lado_direito">
             <h1>
-                <strong>Welcome,</strong>
-                Huuman
+                Suba de elo com estatísticas !
             </h1>
+            <p>Todo nosso sistema simplifca os dados para que você tenha as melhores dicas na hora de se divertir.</p>
+            <img  class="icone" src="../assets/rammus.png">
         </div>
   </div>
 </template>
@@ -19,21 +20,26 @@
 export default {
     name: 'Body',
     
-    setup() {
-        
-    },
 }
 </script>
 
-<style>
+<style scoped>
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body {
-  font-family: montserrat, sans-serif;
+h1 {
+  font-family: 'Oswald', sans-serif;
+}
+
+p {
+  color: #A9B2BD;
+  font-family: 'Shippori Mincho B1', serif;
+  font-size: 20px;
+  max-width: 400px;
+  margin-bottom: 40px;
 }
 
 .page-wrap {
@@ -41,41 +47,36 @@ body {
   min-height: 74vh;
 }
 
-.left-panel {
+.lado_esquerdo {
   background-image: url(../assets/yorick.jpg);
   background-repeat: no-repeat;
   flex: 1 1 66.666%;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
-.left-panel .illustration {
-  margin-bottom: 50px;
-}
-
-.left-panel h2 {
-  color: #FFF;
-  font-size: 48px;
-  font-weight: 400;
-  text-align: center;
-}
-
-.right-panel {
+.lado_direito {
+  background: #001524;
   flex: 1 1 33.333%;
   padding: 25px;
 }
 
-.right-panel h1 {
-  color: #FF5858;
-  font-size: 48px;
+.lado_direito h1 {
+  margin-top: 60px;
+  font-size: 35px;
   font-weight: 400;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
+  text-align: center;
 }
 
-.right-panel h1 strong {
-  color: #b7cc2e;
+.lado_direito h1 {
+  color: #68758D;
   font-weight: 900;
+}
+
+.icone {
+  width: 200px;
+  height: auto;
+  display: block;
+  margin: auto;
 }
 </style>
