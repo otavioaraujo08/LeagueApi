@@ -7,14 +7,21 @@
     
     <Header/>
     <Body/>
+    <Generico
+      TextoBase="Venha se divertir com a gente"
+      teemo="sim"
+    />
     <Insight/>
+    <Footer/>
   </div>
 </template>
 
 <script>
-import Header  from '@/layout/header.vue'
-import Body    from '@/layout/body.vue'
-import Insight from '@/layout/insights.vue'
+import Header   from '@/layout/header.vue'
+import Body     from '@/layout/body.vue'
+import Generico from '@/components/generico.vue'
+import Insight  from '@/layout/insights.vue'
+import Footer  from '@/layout/footer.vue'
 
 export default {
   name: 'Home',
@@ -22,7 +29,9 @@ export default {
   components: {
     Header,
     Body,
-    Insight
+    Generico,
+    Insight,
+    Footer
   }
 }
 </script>
