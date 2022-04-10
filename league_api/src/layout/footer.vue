@@ -20,16 +20,16 @@
             <div>
                 <h1 style="margin-top: 30px" > Desenvolvedores </h1>
                 <li>
-                    <a href="#!"><img class="redes-sociais" src="../assets/github.png">Marcos Aguiar</a>
+                    <a target="blank" href="https://github.com/MarcosAP20"><img class="redes-sociais" src="../assets/github.png">Marcos Aguiar</a>
                 </li>
                 <li>
-                    <a href="#!"><img class="redes-sociais" src="../assets/github.png"> Otávio Araujo</a>
+                    <a target="blank" href="https://github.com/otavioaraujo08"><img class="redes-sociais" src="../assets/github.png"> Otávio Araujo</a>
                 </li>
                 <li>
-                    <a href="#!"><img class="redes-sociais" src="../assets/linkedin.png">Marcos Aguiar</a>
+                    <a target="blank" href="https://www.linkedin.com/in/marcos-aguiar-parente-407996205/"><img class="redes-sociais" src="../assets/linkedin.png">Marcos Aguiar</a>
                 </li>
                 <li>
-                    <a href="#!"><img class="redes-sociais" src="../assets/linkedin.png">Otávio Arajo</a>
+                    <a target="blank" href="https://www.linkedin.com/in/ot%C3%A1vio-araujo-77474b1ab"><img class="redes-sociais" src="../assets/linkedin.png">Otávio Arajo</a>
                 </li>
             </div>
         </div>
